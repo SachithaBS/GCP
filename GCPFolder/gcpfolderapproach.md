@@ -4,7 +4,6 @@
 
 A dedicated folder with four associated projects must be assigned for each users, with resource deployments restricted to the first project(Admin project) when using a Deployment Manager. Basic and custom roles should be configured to meet specific access requirements.
 
-
 ### Implementation: 
 
 - A new access control mechanism was introduced to ensure each user receives a designated folder with four projects.  
@@ -14,6 +13,7 @@ A dedicated folder with four associated projects must be assigned for each users
 ### Steps to Perform on the Template:  
 
 1. Log in to the **CL Portal**, navigate to the required tenant (**WIZ**), and go to the **Template** section on the left-hand side.  
+   ![](images/cl-1.png)
 2. Click on **Edit** for the template where you want to configure deployment and access settings.  
 3. Navigate to the **Cloud Template** section, click on **+ADD**, and upload the required file to automate resource deployment.  
 4. Choose the configurations as specified below, then click **Submit**:  
