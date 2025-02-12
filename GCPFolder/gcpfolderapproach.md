@@ -60,7 +60,7 @@ A dedicated folder with four associated projects must be assigned for each users
 
     ![](images/gcp-12.1.png)
 
-19. Verify Resource Deployment: In the Google Cloud Console, select the first project within the assigned folder. Then, confirm that the resource deployment, automated through the template, has been successfully executed in this project.
+19. Verify Resource Deployment: In the Google Cloud Console, select the first project within the assigned folder. Then, confirm that the resource deployment automated through the template, has been successfully executed in this project.
 
     ![](images/gcp-10.1.png)  
 
