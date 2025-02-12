@@ -54,11 +54,20 @@ A dedicated folder with four associated projects must be assigned for each users
 14. Log in to the **GCP Console** by entering the copied **Username and Password**.
 15. Verify **Folder and Project Access**: Ensure that the user has been assigned access to one folder containing four projects.
 
-16. Confirm **Custom Role** Assignment: Navigate to the folder's IAM settings and verify that the custom role specified from CloudLabs is applied at the folder level. 
+    ![](images/gcp-1.png)
 
-17. Verify Resource Deployment: In the Google Cloud Console, select the first project within the assigned folder. Then, confirm that the resource deployment, automated through the template, has been successfully executed in this project. 
+17. Confirm **Custom Role** Assignment: Navigate to the folder's IAM settings and verify that the custom role specified from CloudLabs is applied at the folder level.
 
-18. In each project, verify that the custom role applied at the folder level has been inherited. Test the functionality of the inherited role by attempting to deploy resources as specified in the custom role's permissions.  
+    ![](images/gcp-12.png)
+
+19. Verify Resource Deployment: In the Google Cloud Console, select the first project within the assigned folder. Then, confirm that the resource deployment, automated through the template, has been successfully executed in this project.
+
+    ![](images/gcp-10.png)  
+
+21. In each project, verify that the custom role applied at the folder level has been inherited. Test the functionality of the inherited role by attempting to deploy resources as specified in the custom role's permissions.
+
+     ![](images/gcp-6.png)
+    
 
 
 
